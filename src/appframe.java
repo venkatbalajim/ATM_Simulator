@@ -338,13 +338,13 @@ public class appframe extends javax.swing.JFrame {
         double withdrawAmount = Double.parseDouble(withdrawAmountStr);
         
         if (withdrawAmount <= 0) {
-            JOptionPane.showMessageDialog(this, "Please enter a valid deposit amount.", "Invalid Amount", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(this, "Please enter a valid withdraw amount.", "Invalid Amount", JOptionPane.ERROR_MESSAGE);
         } else if (bankBalances[loggedInAccountIndex]-withdrawAmount<0) {
             JOptionPane.showMessageDialog(this, "Bank balance is lower than the withdraw amount.", "Invalid Amount", JOptionPane.ERROR_MESSAGE);
         }
         else {
             bankBalances[loggedInAccountIndex] -= withdrawAmount;
-            JOptionPane.showMessageDialog(this, "Money withdraw successfully", "Deposit Successful", JOptionPane.INFORMATION_MESSAGE);
+            JOptionPane.showMessageDialog(this, "Money withdraw successfully", "Withdraw Successful", JOptionPane.INFORMATION_MESSAGE);
             WithdrawMoneyInput.setText("");
             showMainMenu();
         }
