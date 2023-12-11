@@ -22,3 +22,18 @@ This project is an ATM (Automated Teller Machine) simulator developed using Java
 - Change the directory to the repository folder.
 - Run the program using `java -cp bin appframe` command.
 - Start using the ATM Simulator application. 
+
+## Sample Login Credentials
+I have included two sample account numbers in the ATM Simulator application. 
+
+### Account 01
+ - Account number : 123456
+ - ATM PIN Number : 1111
+ - Account holder : Venkat
+ - Bank balance : 1000.0
+
+### Account 02
+ - Account number : 789012
+ - ATM PIN Number : 2222
+ - Account holder : Balaji
+ - Bank balance : 2000.0
