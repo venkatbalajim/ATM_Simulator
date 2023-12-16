@@ -6,7 +6,7 @@ This project is an ATM (Automated Teller Machine) simulator developed using Java
 ## Features 
 - **Login system** - Users can log in using their account number and ATM PIN.
 - **Check balance** - Account balance is displayed on the main menu page, and it is easy to check their balance.
-- **Easy to use** - The GUI has a simple GUI which is easy to use for the users. 
+- **Easy to use** - The simulator comes with a user-friendly graphical interface that is easy to navigate for all users. 
 
 ## List of Operations 
 - **Deposit** - Users can deposit money into their bank account. 
